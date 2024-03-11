@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
-import { useTodo } from '../context'
-import type { Todo } from '../context'
+import { Todo } from '../context/TodoContext'
+import { useTodo } from '../context/useTodo'
 import { Input } from './Input'
 import { BsCheck2Square } from 'react-icons/bs'
 import { TbRefresh } from 'react-icons/tb'
